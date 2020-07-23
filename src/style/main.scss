@@ -1,7 +1,27 @@
 @import 'varbls.scss';
 
 
+@font-face {
+  font-family:"Myriad Pro";
+  src: url('../font/MYRIADPRO-REGULAR.woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family:"Myriad Pro";
+  src: url('../font/MYRIADPRO-BOLD.woff');
+  font-weight: 700;
+}
 
+body {
+  font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+.d-none{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
 
 .visually-hidden {
   position: absolute;
@@ -14,5 +34,38 @@
   overflow: hidden;
   white-space: nowrap
 }
+.form input,
+.form__option,
+.form__text
+{
+  padding: 20px 40px;
+  font-size: 22px;
+  line-height: 34px;
+  color: #475057;
+
+  background-color:#f1f4f6;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #c1c4c6;
+  appearance: none;
+}
+.form input:hover,
+.form__option:hover,
+.form__text:hover{
+  box-shadow: 2px 2px 3px rgba(210,193,163,1), 0px 8px 0px rgba(0, 0, 0, .18);
+
+}
+.your_name_hover {
+
+}
+
+
+.form__text{
+  height: 185px;
+}
+.form__option option{
+  padding: 20px 40px;
+}
+
 
 @import 'blocks/*.scss';

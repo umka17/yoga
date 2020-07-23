@@ -1,0 +1,17 @@
+.button{
+  display: inline-block;
+  padding: 11px 25px;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border:none;
+}
+.button--pink{
+  background-color: #fed4d4;
+  color: #424b5a;
+}
+.button--pink:hover{
+box-shadow: 0px 3px 13.3px 0.7px rgba(145, 113, 132, 0.49);
+}

@@ -1,0 +1,55 @@
+.video{
+  background-color: #fddddd;
+}
+.video .container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.video__iframe{
+  width: 631px;
+  height: 421px;
+  margin-top: 130px;
+  box-shadow: 20.3px 26px 68px 1.3px rgba(136, 136, 136, 0.91)
+
+
+}
+.video__right-side{
+  margin-left: auto;
+  width: 479px;
+}
+.video__title{
+  margin-top: 160px;
+  margin-bottom: 30px;
+}
+.video__sub-title{
+  margin-bottom: 40px;
+}
+
+.social__list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: space-between;
+  width: 200px;
+
+  margin-bottom: 200px;
+}
+.social__item{
+  width: 40px;
+  height: 40px;
+  background-color: #505d68;
+  display: flex;
+}
+.social__link{
+  display: inline-block;
+  margin: auto;
+}
+.social__icon{
+  fill: #ffffff;
+
+}
+.social__icon path{
+  fill: #ffffff !important;
+}

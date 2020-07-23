@@ -1,0 +1,26 @@
+.breathing{
+  background-image: url('../img/breating.jpg');
+
+  padding-top: 1px;
+}
+.breathing .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.breathing__left-side{
+  margin-right: auto;
+  width:570px;
+}
+.breathing__title{
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+.breathing__sub-title{
+  margin-bottom: 40px;
+  width: 470px;
+}
+
+.breathing__button{
+  margin-bottom: 180px;
+}
